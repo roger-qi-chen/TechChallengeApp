@@ -9,7 +9,7 @@ pipeline {
              steps {
                 echo 'Buidling Docker image...'
                    sh 'docker build . -t servian/techchallengeapp:latest'
-				   sh 'docker ps'
+				   sh 'docker images'
                    // sh 'docker tag techchallengeapp:latest $AWS_ECR/jr_oap_repo:$BUILD_NUMBER'
              }
         }
