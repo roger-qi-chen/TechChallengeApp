@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		$DOCKERHUB = 'chenqi830521'
+		DOCKERHUB = 'chenqi830521'
 	}
 
 	stages {
